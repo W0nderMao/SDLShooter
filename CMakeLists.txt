@@ -20,6 +20,6 @@ find_package(SDL2_image REQUIRED)
 find_package(SDL2_ttf REQUIRED)
 find_package(SDL2_mixer REQUIRED)
 
-add_executable(${TARGET} main.cpp)
+add_executable(${TARGET} src/main.cpp)
 
 target_link_libraries(${TARGET} ${SDL2_LIBRARIES} SDL2_image::SDL2_image SDL2_ttf::SDL2_ttf SDL2_mixer::SDL2_mixer)
