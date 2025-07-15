@@ -56,6 +56,20 @@ build CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj: CXX_COMPILER__SDLShoot
   OBJECT_DIR = CMakeFiles\SDLShooter-Windows.dir
   OBJECT_FILE_DIR = CMakeFiles\SDLShooter-Windows.dir\src
 
+build CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj: CXX_COMPILER__SDLShooter-Windows_unscanned_Debug E$:/SDLShooter/src/SceneMain.cpp || cmake_object_order_depends_target_SDLShooter-Windows
+  DEP_FILE = CMakeFiles\SDLShooter-Windows.dir\src\SceneMain.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic
+  INCLUDES = -isystem D:/SDL2_Library/SDL2/cmake/../include
+  OBJECT_DIR = CMakeFiles\SDLShooter-Windows.dir
+  OBJECT_FILE_DIR = CMakeFiles\SDLShooter-Windows.dir\src
+
+build CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj: CXX_COMPILER__SDLShooter-Windows_unscanned_Debug E$:/SDLShooter/src/Game.cpp || cmake_object_order_depends_target_SDLShooter-Windows
+  DEP_FILE = CMakeFiles\SDLShooter-Windows.dir\src\Game.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic
+  INCLUDES = -isystem D:/SDL2_Library/SDL2/cmake/../include
+  OBJECT_DIR = CMakeFiles\SDLShooter-Windows.dir
+  OBJECT_FILE_DIR = CMakeFiles\SDLShooter-Windows.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SDLShooter-Windows
@@ -64,7 +78,7 @@ build CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj: CXX_COMPILER__SDLShoot
 #############################################
 # Link the executable E:\SDLShooter\SDLShooter-Windows.exe
 
-build E$:/SDLShooter/SDLShooter-Windows.exe: CXX_EXECUTABLE_LINKER__SDLShooter-Windows_Debug CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj | D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2main.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_image.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_ttf.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_mixer.lib
+build E$:/SDLShooter/SDLShooter-Windows.exe: CXX_EXECUTABLE_LINKER__SDLShooter-Windows_Debug CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj | D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2main.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_image.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_ttf.lib D$:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_mixer.lib
   FLAGS = -g
   LINK_LIBRARIES = D:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2main.lib  D:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2.lib  D:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_image.lib  D:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_ttf.lib  D:/SDL2_Library/SDL2/cmake/../lib/x64/SDL2_mixer.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SDLShooter-Windows.dir

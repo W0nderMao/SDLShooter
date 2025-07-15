@@ -1,6 +1,5 @@
 # ninja log v6
-1069	1681	7739955210941370	E:/SDLShooter/SDLShooter-Windows.exe	6e449ea1cf0d89cb
 3	1069	7739955200267601	CMakeFiles/SDLShooter-Windows.dir/main.cpp.obj	921baf41730d73ad
-2	2163	7739955553183315	build.ninja	1b210d8797aebe65
-12	882	7739955557183319	CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj	7a4d3793276373cb
 883	1330	7739955565903173	E:/SDLShooter/SDLShooter-Windows.exe	bdcd99d0fe7f3359
+2	2163	7740122185366347	build.ninja	1b210d8797aebe65
+12	882	7739955557183319	CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj	7a4d3793276373cb

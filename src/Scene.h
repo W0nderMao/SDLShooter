@@ -1,5 +1,7 @@
 #pragma once
 
+#include "SDL.h"
+
 class Scene
 {
     public:
@@ -9,7 +11,5 @@ class Scene
         virtual void update() = 0;
         virtual void render() = 0;
         virtual void clean() = 0;
-        virtual void handleEvents() = 0;
-    protected:
-        bool isActive = true;
+        virtual void handleEvent(SDL_Event* event) = 0;
 };
