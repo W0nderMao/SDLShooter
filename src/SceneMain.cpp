@@ -8,22 +8,22 @@ SceneMain::~SceneMain() {
 
 }
 
-void SceneMain::update() {
+void SceneMain::update_Scene() {
 
 }
 
-void SceneMain::init() {
+void SceneMain::init_Scene() {
 
 }
 
-void SceneMain::render() {
+void SceneMain::render_Scene() {
 
 }
 
-void SceneMain::clean() {
+void SceneMain::clean_Scene() {
 
 }
 
-void SceneMain::handleEvent(SDL_Event *event) {
+void SceneMain::handleEvent_Scene(SDL_Event *event) {
 
 }

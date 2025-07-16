@@ -9,11 +9,11 @@ class SceneMain : public Scene
         SceneMain();
         ~SceneMain();
 
-        void update() override;
-        void init() override;
-        void render() override;
-        void clean() override;
-        void handleEvent(SDL_Event* event) override;
+        void update_Scene() override;
+        void init_Scene() override;
+        void render_Scene() override;
+        void clean_Scene() override;
+        void handleEvent_Scene(SDL_Event* event) override;
 };
 
 
