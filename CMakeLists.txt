@@ -25,6 +25,7 @@ add_executable(${TARGET} src/main.cpp
         src/SceneMain.cpp
         src/Game.h
         src/Game.cpp
-        src/Scene.h)
+        src/Scene.h
+        src/Object.h)
 
 target_link_libraries(${TARGET} ${SDL2_LIBRARIES} SDL2_image::SDL2_image SDL2_ttf::SDL2_ttf SDL2_mixer::SDL2_mixer)

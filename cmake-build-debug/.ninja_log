@@ -1,13 +1,17 @@
 # ninja log v6
 3	1069	7739955200267601	CMakeFiles/SDLShooter-Windows.dir/main.cpp.obj	921baf41730d73ad
-883	1330	7739955565903173	E:/SDLShooter/SDLShooter-Windows.exe	bdcd99d0fe7f3359
-2	2163	7742709474990114	build.ninja	1b210d8797aebe65
-12	882	7739955557183319	CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj	7a4d3793276373cb
-144	1958	7742724030077013	CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj	65c6e21056b6bf53
-3	1978	7742724028672729	CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj	7a4d3793276373cb
-360	2005	7742724032235362	CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj	ef57b357fa54efb9
-2005	2939	7742724048687785	E:/SDLShooter/SDLShooter-Windows.exe	e09e90c7ecc9a43f
+1710	2414	7742725414706926	E:/SDLShooter/SDLShooter-Windows.exe	e09e90c7ecc9a43f
+483	1710	7742725402435874	CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj	ef57b357fa54efb9
+2	2163	7743556114801898	build.ninja	1b210d8797aebe65
 3	1375	7742725397636143	CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj	7a4d3793276373cb
 200	1459	7742725399603800	CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj	65c6e21056b6bf53
-483	1710	7742725402435874	CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj	ef57b357fa54efb9
-1710	2414	7742725414706926	E:/SDLShooter/SDLShooter-Windows.exe	e09e90c7ecc9a43f
+425	2208	7744468665558557	CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj	65c6e21056b6bf53
+622	2230	7744468667518838	CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj	ef57b357fa54efb9
+13	2254	7744468661439106	CMakeFiles/SDLShooter-Windows.dir/src/main.cpp.obj	7a4d3793276373cb
+2254	3347	7744468683847985	E:/SDLShooter/SDLShooter-Windows.exe	e09e90c7ecc9a43f
+3	1006	7744472529686305	CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj	65c6e21056b6bf53
+238	1124	7744472532002652	CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj	ef57b357fa54efb9
+1124	1654	7744472540900843	E:/SDLShooter/SDLShooter-Windows.exe	e09e90c7ecc9a43f
+3	1191	7744480769255929	CMakeFiles/SDLShooter-Windows.dir/src/SceneMain.cpp.obj	65c6e21056b6bf53
+218	1369	7744480771395806	CMakeFiles/SDLShooter-Windows.dir/src/Game.cpp.obj	ef57b357fa54efb9
+1369	2088	7744480782913777	E:/SDLShooter/SDLShooter-Windows.exe	e09e90c7ecc9a43f

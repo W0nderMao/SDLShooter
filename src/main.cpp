@@ -8,7 +8,7 @@
 int main(int argc, char* argv[]) {
     std::cout << "Hello, World!" << std::endl;
 
-    Game game;
+    Game& game = Game::getInstance();
     game.init_Game();
     game.run_Game();
 

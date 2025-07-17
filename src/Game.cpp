@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "SDL.h"
 #include "SceneMain.h"
+#include "SDL_image.h"
 
 Game::Game()
 {
@@ -41,7 +42,15 @@ void Game::init_Game() {
         SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Renderer could not be created! SDL_Error: %s/n", SDL_GetError());
         isRunning = false;
     }
+
+    if(IMG_Init(IMG_INIT_PNG) != IMG_INIT_PNG)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "SDL_image could not init! SDL_Error: %s/n", SDL_GetError());
+        isRunning = false;
+    }
+
     currentScene = new SceneMain();
+    currentScene->init_Scene();
 }
 
 void Game::clean_Game() {
@@ -52,6 +61,7 @@ void Game::clean_Game() {
         delete currentScene;
     }
 
+    IMG_Quit();
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
